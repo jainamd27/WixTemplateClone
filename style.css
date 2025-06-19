@@ -9,11 +9,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background-color: white;
 }
 
 .navbar {
     height: auto;
     width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 
