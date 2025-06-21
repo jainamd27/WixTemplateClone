@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" sizes="192x192" href="https://www.wix.com/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        .content .landing-text button:hover {
+    background-color: white;
+    color: black;
+    transition-property: all;
+    transition-duration: 2s;
+}
+    </style>
 
 </head>
 
@@ -25,7 +34,7 @@
                     Contact
                 </span>
             </div>
-            <div class="logo">
+            <div class="logo" style="margin-left: 10px ;">
                 <h1>K. Perez</h1>
             </div>
             <div class="section2">
@@ -60,7 +69,7 @@
             <div class="landing-text">
                 <h1>OWN YOUR STATEMENT</h1>
                 <p>Explore our exclusive range of accessories designed to complement and enhance your style</p>
-                <button>Shop Now</button>
+                <div data-aos="fade-right"><button>Shop Now</button></div>
             </div>
         </div>
         <div class="images">
@@ -75,10 +84,12 @@
                 Arrivals ~ New Arrivals ~ New Arrivals ~ New Arrivals ~ New Arrivals ~ New Arrivals ~ New Arrivals ~ New
                 Arrivals~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals ~ New Arrivals~ New Arrivals ~ New Arrivals~ New Arrivals ~ New Arrivals~ New Arrivals~ New Arrivals ~ New Arrivals~ New Arrivals ~ New Arrivals~ New Arrivals ~ New Arrivals~ New Arrivals ~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals ~ New Arrivals~ New Arrivals~ New Arrivals~ New Arrivals ~ New Arrivals</marquee>
         </div>
-        <div class="limited-time-offer">
-            <h1>Limited Time Offer</h1>
-            <p>Don't miss out on our latest collection. Enjoy a special discount on selected items.</p>
-            <p>Get 20% Off Today</p>
+        <div data-aos="fade-up">
+            <div class="limited-time-offer">
+                <h1>Limited Time Offer</h1>
+                <p>Don't miss out on our latest collection. Enjoy a special discount on selected items.</p>
+                <p>Get 20% Off Today</p>
+            </div>
         </div>
         <h1 style="margin-left: 25px;">All Products</h1>
         <div class="products">
@@ -110,17 +121,22 @@
                 </div>
             </div>
         </div>
-        <center style="margin-block: 32px;"><button class="btn" style="padding-inline: 20px; padding-block: 8px;">Shop Now</button>
-        </center>
+        <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <center style="margin-block: 32px;"><button class="btn" style="padding-inline: 20px; padding-block: 8px;">Shop
+                    Now</button>
+                </center>
+        </div>
         <br><br><br>
         <hr>
         <br><br><br>
         <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-            <p>Why Choose Us</p>
+            <div data-aos="fade-down"><p>Why Choose Us</p></div>
             <br><br><br>
-            <p>At K. Perez, we prioritize quality, style, and variety. Our accessories</p>
-            <p>are meticulously chosen to cater to diverse tastes and occasions,</p>
-            <p>ensuring you find the perfect piece for every outfit.</p>
+            <div data-aos="fade-up">
+                <p>At K. Perez, we prioritize quality, style, and variety. Our accessories</p>
+                <p>are meticulously chosen to cater to diverse tastes and occasions,</p>
+                <p>ensuring you find the perfect piece for every outfit.</p>
+            </div>
         </div>
         <div class="test-images">
             <img src="https://static.wixstatic.com/media/88aac0_4dc9035ceeb440c3b598c543ff2cda77~mv2.jpg/v1/fill/w_646,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/88aac0_4dc9035ceeb440c3b598c543ff2cda77~mv2.jpg"
@@ -130,15 +146,24 @@
         </div>
         <div class="test">
             <div class="t1">
-                <h1 style="padding-left: 40px; margin-block: 60px;">Client Testimonials</h1>
-                <p style="padding-left: 40px;">Absolutely love the elegant collection at K. Perez. Each piece is a
-                    statement on its own.</p>
+                <div data-aos="fade-up">
+                    <h1 style="padding-left: 40px; margin-block: 60px;">Client Testimonials</h1>
+                </div>
+                <div data-aos="fade-up">
+                    <p style="padding-left: 40px;">Absolutely love the elegant collection at K. Perez. Each piece is a
+                        statement on its own.</p>
+                </div>
             </div>
             <div class="t2"
                 style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                <h2 style="padding-right: 300px; margin-top: 200px; margin-left: 100px;">"The scarves and bags I purchased are of top-notch
-                    quality and have become my go-to accessories."</h2>
-                <span>-Sophia</span>
+                <div data-aos="fade-up">
+                    <h2 style="padding-right: 300px; margin-top: 200px; margin-left: 100px;">"The scarves and bags I purchased are of
+                        top-notch
+                        quality and have become my go-to accessories."</h2>
+                </div>
+                <div data-aos="fade-up">
+                    <span>-Sophia</span>
+                </div>
             </div>
         </div>
         <div class="form" style="position: relative;">
@@ -179,49 +204,55 @@
         <br>
         <br>
         <footer>
-            <div class="info">
-                <a style="font-size: 62px;" href="https://www.wix.com/sgtemplates/k-perez" target="_self">K. Perez</a>
-                <div style="display: flex; flex-direction: column; gap: 20px;">
-                    <div style="display: flex; flex-direction: column; margin-top: 50px;">
-                        <span>123-456-7890</span>
-                        <span>info@mysite.com</span>
+            <div data-aos="zoom-in">
+                <div class="info">
+                    <a style="font-size: 62px;" href="https://www.wix.com/sgtemplates/k-perez" target="_self">K. Perez</a>
+                    <div style="display: flex; flex-direction: column; gap: 20px;">
+                        <div style="display: flex; flex-direction: column; margin-top: 50px;">
+                            <span>123-456-7890</span>
+                            <span>info@mysite.com</span>
+                        </div>
+                
+                        <div style="display: flex; flex-direction: column;">
+                            <span>Terry Francine St.</span><span></span> San Francisco, CA 94158</span>
+                        </div>
+                        <div style="display: flex; gap: 10px;">
+                            <img alt="Instagram" data-ssr-src-done="true" fetchpriority="high"
+                                src="https://static.wixstatic.com/media/11062b_603340b7bcb14e7785c7b65b233cd9f9~mv2.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_603340b7bcb14e7785c7b65b233cd9f9~mv2.png"
+                                style="width: 30px; height: 30px; object-fit: cover; background-color: black;">
+                            <img alt="Facebook" data-ssr-src-done="true" fetchpriority="high"
+                                src="https://static.wixstatic.com/media/11062b_f4e3e7f537ff4762a1914aa14e3e36b9~mv2.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_f4e3e7f537ff4762a1914aa14e3e36b9~mv2.png"
+                                style="width: 30px; height: 30px; object-fit: cover;">
+                            <img alt="Tumblr" data-ssr-src-done="true" fetchpriority="high"
+                                src="https://static.wixstatic.com/media/11062b_f5de0614ab574fac8eaa5b13581268be~mv2.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_f5de0614ab574fac8eaa5b13581268be~mv2.png"
+                                style="width: 30px; height: 30px; object-fit: cover;">
+                        </div>
                     </div>
-
                     <div style="display: flex; flex-direction: column;">
-                        <span>Terry Francine St.</span><span></span> San Francisco, CA 94158</span>
-                    </div>
-                    <div style="display: flex; gap: 10px;">
-                        <img alt="Instagram" data-ssr-src-done="true" fetchpriority="high"
-                            src="https://static.wixstatic.com/media/11062b_603340b7bcb14e7785c7b65b233cd9f9~mv2.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_603340b7bcb14e7785c7b65b233cd9f9~mv2.png"
-                            style="width: 30px; height: 30px; object-fit: cover; background-color: black;">
-                        <img alt="Facebook" data-ssr-src-done="true" fetchpriority="high"
-                            src="https://static.wixstatic.com/media/11062b_f4e3e7f537ff4762a1914aa14e3e36b9~mv2.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_f4e3e7f537ff4762a1914aa14e3e36b9~mv2.png"
-                            style="width: 30px; height: 30px; object-fit: cover;">
-                        <img alt="Tumblr" data-ssr-src-done="true" fetchpriority="high"
-                            src="https://static.wixstatic.com/media/11062b_f5de0614ab574fac8eaa5b13581268be~mv2.png/v1/fill/w_30,h_30,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_f5de0614ab574fac8eaa5b13581268be~mv2.png"
-                            style="width: 30px; height: 30px; object-fit: cover;">
+                        <span>Privacy Policy</span>
+                
+                        <span>Accessibility Statement</span>
+                
+                        <span>Shipping Policy</span>
+                
+                        <span>Terms & Conditions</span>
+                
+                        <span>Refund Policy</span>
                     </div>
                 </div>
-                <div style="display: flex; flex-direction: column;">
-                    <span>Privacy Policy</span>
-
-                    <span>Accessibility Statement</span>
-
-                    <span>Shipping Policy</span>
-
-                    <span>Terms & Conditions</span>
-
-                    <span>Refund Policy</span>
-                </div>
+                <br><br><br><br><br>
+                <hr style="color: white;">
+                <br>
+                <br>
+                <span style="margin-left: 120px;">© 2035 by K. Perez. Powered and secured by Wix</span>
+                <br><br><br><br><br>
             </div>
-            <br><br><br><br><br>
-            <hr style="color: white;">
-            <br>
-            <br>
-            <span style="margin-left: 120px;">© 2035 by K. Perez. Powered and secured by Wix</span>
-            <br><br><br><br><br>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
